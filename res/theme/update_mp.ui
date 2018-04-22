@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<component type="Form" name="update_mp" cloudDestinationProperty="update_mp" layout="BoxLayout" boxLayoutAxis="Y" title="Nouveau mot de passe" >
+  <component type="Container" name="Container1" cloudDestinationProperty="Container1" focusable="false" rtl="false" scrollVisible="true" layout="BoxLayout" boxLayoutAxis="Y" >
+    <component type="Label" name="Label" cloudDestinationProperty="Label" text=" " >
+    </component>
+    <component type="Label" name="Label1" cloudDestinationProperty="Label1" text=" " >
+    </component>
+    <component type="Label" name="Label2" cloudDestinationProperty="Label2" text=" " >
+    </component>
+    <component type="Label" name="Label3" cloudDestinationProperty="Label3" text=" " >
+    </component>
+  </component>
+  <component type="Container" name="Container" cloudDestinationProperty="Container" layout="FlowLayout" flowLayoutFillRows="true" flowLayoutAlign="4" flowLayoutValign="4" >
+    <component type="TextField" name="password" cloudBoundProperty="text" cloudDestinationProperty="User" text="" hint="Nouveau mot de passe" columns="40" >
+    </component>
+  </component>
+  <component type="Container" name="Container2" cloudDestinationProperty="Container2" layout="FlowLayout" flowLayoutFillRows="false" flowLayoutAlign="4" flowLayoutValign="4" >
+    <component type="Button" name="Button" cloudDestinationProperty="Button" text="Valider la modification" >
+    </component>
+  </component>
+</component>

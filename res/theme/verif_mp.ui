@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<component type="Form" name="verif_mp" cloudDestinationProperty="verif_mp" flatten="false" layout="FlowLayout" flowLayoutFillRows="false" flowLayoutAlign="4" flowLayoutValign="4" title="Recuperation" >
+  <component type="Container" name="Container" cloudDestinationProperty="Container" uiid="GroupElementOnly" >
+    <component type="TextField" name="User" cloudBoundProperty="text" cloudDestinationProperty="User" text="" hint="Nom d'utilisateur" columns="40" >
+    </component>
+    <component type="TextField" name="email" cloudBoundProperty="text" cloudDestinationProperty="User" text="" hint="Email" columns="40" >
+    </component>
+  </component>
+  <component type="Container" name="Container1" cloudDestinationProperty="Container1" >
+    <component type="Button" name="bt_val" cloudDestinationProperty="bt_val" text="Verifier" gap="3" >
+    </component>
+  </component>
+</component>

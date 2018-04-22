@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<component type="Form" name="Home" cloudDestinationProperty="Login" uiid="Form" rtl="false" tensileDragEnabled="true" snapToGrid="false" flatten="true" scrollableX="false" layout="BoxLayout" boxLayoutAxis="Y" title="Connexion" cyclicFocus="true" >
+  <component type="Container" name="Container2" cloudDestinationProperty="Container2" layout="FlowLayout" flowLayoutFillRows="false" flowLayoutAlign="4" flowLayoutValign="4" >
+    <component type="ImageViewer" name="ImageViewer" cloudDestinationProperty="ImageViewer" >
+      <custom name="image" type="com.codename1.ui.Image" value="sticker,375x360-bg,ffffff.u1.png" />
+      <custom name="imageList" />
+    </component>
+  </component>
+  <component type="Container" name="Container" cloudDestinationProperty="Container" uiid="ButtonGroupOnly" focusable="false" rtl="false" scrollVisible="false" snapToGrid="false" flatten="false" layout="TableLayout" tableLayoutRows="2" tableLayoutColumns="1" >
+    <component type="TextField" name="login" cloudBoundProperty="text" cloudDestinationProperty="TextField" text="" hint="Nom d'utilisateur" columns="40" >
+    </component>
+    <component type="TextField" name="password" cloudBoundProperty="text" cloudDestinationProperty="TextField1" text="" constraint="65536" hint="Mot de passe" columns="40" >
+    </component>
+  </component>
+  <component type="Container" name="Container1" cloudDestinationProperty="Container1" layout="FlowLayout" flowLayoutFillRows="false" flowLayoutAlign="4" flowLayoutValign="4" >
+    <component type="Button" name="bt_conn" cloudDestinationProperty="Button" text="Connexion" >
+    </component>
+    <component type="Button" name="Button1" cloudDestinationProperty="Button1" commandName="Inscription" commandId="3" commandAction="" commandBack="false" text="Inscription" >
+      <custom name="maskName" type="java.lang.String" value="" />
+    </component>
+  </component>
+</component>

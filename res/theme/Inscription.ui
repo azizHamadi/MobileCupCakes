@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<component type="Form" name="Inscription" cloudDestinationProperty="Inscription" snapToGrid="false" layout="BoxLayout" boxLayoutAxis="Y" title="Inscription" >
+  <component type="Container" name="Container" cloudDestinationProperty="Container" rtl="false" layout="TableLayout" tableLayoutRows="16" tableLayoutColumns="1" >
+    <component type="TextField" name="User" cloudBoundProperty="text" cloudDestinationProperty="TextField" text="" hint="Nom d'utilisateur" columns="40" >
+    </component>
+    <component type="TextField" name="nom" cloudBoundProperty="text" cloudDestinationProperty="TextField" enabled="true" text="" hint="Nom" columns="40" >
+    </component>
+    <component type="TextField" name="prenom" cloudBoundProperty="text" cloudDestinationProperty="TextField" focusable="true" text="" hint="Prenom" columns="40" >
+    </component>
+    <component type="TextField" name="profession" cloudBoundProperty="text" cloudDestinationProperty="TextField" focusable="true" text="" hint="Profession" columns="40" >
+    </component>
+    <component type="TextField" name="sieges" cloudBoundProperty="text" cloudDestinationProperty="TextField" text="" hint="Sieges" columns="40" >
+    </component>
+    <component type="TextField" name="num" cloudBoundProperty="text" cloudDestinationProperty="TextField2" text="" constraint="3" hint="Numero du telephone" columns="40" >
+    </component>
+    <component type="Label" name="Label1" cloudDestinationProperty="Label" text="Role" >
+    </component>
+    <component type="ComboBox" name="role_app" cloudDestinationProperty="role_app" >
+      <layoutConstraint row="-1" column="-1" height="-1" width="-1" align="-1" spanHorizontal="1" valign="-1" spanVertical="1" />
+      <mapItems>
+        <stringItem key="Formateur" value="a:1:{i:0;s:14:\&quot;ROLE_FORMATEUR\&quot;;}" />
+      </mapItems>
+      <mapItems>
+        <stringItem key="Client" value="a:1:{i:0;s:11:\&quot;ROLE_CLIENT\&quot;;}" />
+      </mapItems>
+      <mapItems>
+        <stringItem key="Patisserie" value="a:1:{i:0;s:15:\&quot;ROLE_PATISSERIE\&quot;;}" />
+      </mapItems>
+    </component>
+    <component type="TextField" name="email" cloudBoundProperty="text" cloudDestinationProperty="TextField1" text="" hint="Email" columns="40" >
+    </component>
+    <component type="TextField" name="mp" cloudBoundProperty="text" cloudDestinationProperty="TextField3" text="" hint="Mot de passe" columns="40" >
+    </component>
+    <component type="TextField" name="conf" cloudBoundProperty="text" cloudDestinationProperty="conf" text="" hint="Confirmer votre mot de passe" columns="40" >
+    </component>
+    <component type="Label" name="Label" cloudDestinationProperty="Label" text="Date de naissance" >
+    </component>
+    <component type="Picker" name="date_n" cloudDestinationProperty="date_n" text="21/04/18" >
+    </component>
+  </component>
+  <component type="Container" name="Container1" cloudDestinationProperty="Container1" layout="BoxLayout" boxLayoutAxis="X" >
+    <component type="Button" name="bt_image" cloudDestinationProperty="bt_image" uiid="Button" text="Image" textPosition="2" >
+    </component>
+    <component type="TextField" name="tp_img" cloudBoundProperty="text" cloudDestinationProperty="tp_img" uiid="TextField" text="" >
+    </component>
+  </component>
+  <component type="Container" name="Container2" cloudDestinationProperty="Container2" layout="FlowLayout" flowLayoutFillRows="true" flowLayoutAlign="1" flowLayoutValign="4" >
+    <component type="Button" name="bt_val" cloudDestinationProperty="bt_val" text="Valider" >
+    </component>
+    <component type="Button" name="bt_an" cloudDestinationProperty="bt_an" text="Annuler" >
+    </component>
+  </component>
+</component>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<component type="Form" name="Login" cloudDestinationProperty="Login" uiid="loginForm" focusable="false" layout="BoxLayout" boxLayoutAxis="Y" title="Connexion" >
+  <component type="Container" name="Container" cloudDestinationProperty="Container" uiid="loginTextField" scrollableX="false" scrollableY="false" layout="BoxLayout" boxLayoutAxis="Y" >
+    <component type="TextField" name="login" cloudBoundProperty="text" cloudDestinationProperty="login" uiid="loginText" text="" hint="Nom d'utilisateur" >
+    </component>
+    <component type="TextField" name="password" cloudBoundProperty="text" cloudDestinationProperty="password" uiid="loginText" text="" hint="Mot de passe" rows="1" >
+    </component>
+    <component type="Button" name="bt_oublier" cloudDestinationProperty="bt_oublier" text="Mot de passe oublier!" >
+    </component>
+    <component type="Button" name="bt_facebook" cloudDestinationProperty="bt_facebook" text="Connecter avec Facebook" >
+    </component>
+  </component>
+  <component type="Container" name="Container1" cloudDestinationProperty="Container1" layout="FlowLayout" flowLayoutFillRows="false" flowLayoutAlign="4" flowLayoutValign="4" >
+  </component>
+  <component type="Button" name="bt_conn" cloudDestinationProperty="bt_conn" uiid="LoginButton" text="Connexion" >
+  </component>
+  <component type="Button" name="bt_inscription" cloudDestinationProperty="Button1" uiid="LoginButtonInscrit" text="Inscrivez-vous" >
+  </component>
+</component>
