@@ -62,11 +62,5 @@ public class UtilisateurServices {
         NetworkManager.getInstance().addToQueueAndWait(con);
         return user;
     }
-    public String rechercheUser(String login)
-    {
-        con = new ConnectionRequest();
-        con.setUrl("http://localhost/MobileCupCakes/ScriptPHP/Utilisateur/info_id.php?uid='" +login+"'"); 
-        NetworkManager.getInstance().addToQueueAndWait(con);
-        return (new String(con.getResponseData())); 
-    }
+    
 }

@@ -342,6 +342,7 @@
     <image name="label_round.png1" type="multi"  />
     <image name="learn-codename-one.jpg"  />
     <image name="learn-codename-one.jpg1"  />
+    <ui name="ListTest" />
     <image name="logo.png" type="multi"  />
     <image name="logo.png1" type="multi"  />
     <image name="mask.png" type="multi"  />
@@ -1234,6 +1235,9 @@
         <val key="ToggleButton.sel#padding" value="1,1,1,1" />
         <val key="ToggleButton.sel#transparency" value="0" />
         <border key="border" type="empty" />
+        <val key="buttonCupCakes.bgColor" value="ff6666" />
+        <val key="buttonCupCakes.fgColor" value="ffffff" />
+        <val key="buttonCupCakes.transparency" value="255" />
         <font key="font" type="ttf" face="0" style="0" size="0" name="native:MainRegular" family="native:MainRegular" sizeSettings="3" actualSize="3.0" />
         <val key="loginForm.derive" value="Form" />
         <border key="loginText.border" type="line" thickness="1" color="16777215" />
