@@ -1,5 +1,6 @@
 package Utilisateurs;
 
+import Client.ClientAcceuil;
 import Client.ClientTemplate;
 import Entity.Utilisateur;
 import Services.UtilisateurServices;
@@ -92,8 +93,8 @@ public class Login {
                     {
                         if (user.getRoles().equals("a:1:{i:0;s:11:\"ROLE_CLIENT\";}"))
                         {
-                            Client.ClientTemplate clientTemplate = new ClientTemplate();
-                            clientTemplate.startClientTemplate();
+                            Client.ClientAcceuil clientTemplate = new ClientAcceuil();
+                            clientTemplate.start();
                         }
                     }
 
